@@ -1,0 +1,6 @@
+defmodule Ency.Repo.Migrations.Ency do
+  use Ecto.Migration
+
+  def change do
+  end
+end

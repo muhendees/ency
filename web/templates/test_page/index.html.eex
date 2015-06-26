@@ -1,0 +1,17 @@
+
+
+<h1> Hello World</h1>
+<h2>aisjdoiajsdoaijsdoaijsd</h2>
+
+<a href=http://localhost:4000/test>Home</a>
+
+<form action="<% Router.user_path(@conn, :create) %>" method=post>
+  <div class="form-group">
+    <label for="user[name]">Name</label>
+    
+    <input type="text" name = "user[name]" class="form-control" />
+    <input type="text" name = "user[bio]" class="form-control" />
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Save</button>
+</form>
